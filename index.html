@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios CSuarez</title>
+</head>
+<body>
+    <h1>Formularios Viejuners</h1><br><br>
+    <h2>El Club Viejuner</h2><br>
+    <h3>Datos Personales</h3>
+    <h4><form action="enviar.php" method="get" autocomplete="off" >
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre de pila"><br>
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="Primer y segundo apellido"><br>
+        <label for="Edad">Edad:</label>
+        <input type="number" name="Edad" id="Edad" placeholder="Años" max="120" min="50" step="1"><br>
+        <label for="Sexo">Sexo:</label>
+        <label for="Sexo">Hombre:</label>
+        <input type="radio" name="sexo" id="hombre">
+        <label for="Sexo">Mujer:</label>
+        <input type="radio" name="sexo" id="mujer">
+        <label for="Sexo">Otro:</label>
+        <input type="radio" name="sexo" id="otro"><br>
+        <label for="estado">Me siento viejuner:</label>
+        <input type="checkbox" name="estado" id="estado"><br>
+        <label for="sobreti">Escribe algo sobre tí:</label><br>
+        <textarea name="sobreti" id="sobreti" cols="30" rows="10" placeholder="Sobre tí..."></textarea>
+           <h3>Tus circunstancias </h3>
+        <h4><label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="usuario@dominio.xxx"><br>
+        <label for="Telefono">Teléfono Móvil:</label>
+        <input type="number" name="telefono" id="telefono" placeholder="(xx)xxx-xxx-xxx"><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset"></h4></form><br>
+ <h2>Formulario Los Ladronzuelos de Bicicletas</h2>
+    <h4><form action="enviar.php" method="get" autocomplete="off" >
+         <label for="fecha">Fecha:</label>
+         <input type="date" name="fecha" id="fecha" placeholder="dd/mm/aaaa"><br>
+         <label for="hora">Hora:</label>
+         <input type="time" name="hora" id="hora" placeholder="--:--"><br>
+         <label for="color">Color de la bicicleta:</label>
+         <input type="color" name="color" id="color"><br>
+         <label for="precio">Precio</label>
+         <input type="range" name="precio" id="precio"><br>
+         <label for="tipoysub">TIPO:</label><br>
+         <label for="tipo">-Paseo:</label>
+         <h5><label for="subtipo">Señorial</label>
+         <input type="radio" name="tipobici" id="señorial">
+         <label for="subtipo">Anti-plebeyos</label>
+         <input type="radio" name="tipobici" id="antipleb">
+         <label for="subtipo">Por encima del hombro</label>
+         <input type="radio" name="tipobici" id="porencima"></h5>
+         <label for="tipo">-Montaña:</label>
+         <h5><label for="subtipo">Gamusinos</label>
+         <input type="radio" name="tipobici" id="gamu">
+         <label for="subtipo">Hueleflores premium</label>
+         <input type="radio" name="tipobici" id="huele">
+         <label for="subtipo">Fango lover</label>
+         <input type="radio" name="tipobici" id="fango"></h5>
+         <label for="tipo">-Carreras:</label>
+         <h5><label for="subtipo">Metro&medio</label>
+         <input type="radio" name="tipobici" id="metro">
+         <label for="subtipo">3 de la tarde(Fluorescente edition)</label>
+         <input type="radio" name="tipobici" id="tresde">
+         <label for="subtipo">Grupitors</label>
+         <input type="radio" name="tipobici" id="grupi"></h5>
+         <label for="accesorios">ACCESORIOS:</label>
+         <h5><label for="accesorios">Ruedines</label>
+         <input type="checkbox" name="ruedines" id="ruedines">
+         <label for="accesorios">Pegatinas</label>
+         <input type="checkbox" name="Pegatinas" id="Pegatinas">
+         <label for="accesorios">Cestita</label>
+         <input type="checkbox" name="Cestita" id="Cestita">
+         <label for="accesorios">Bomba de aire</label>
+         <input type="checkbox" name="Bomba de aire" id="Bomba de aire">
+         <label for="accesorios">Timbre</label>
+         <input type="checkbox" name="Timbre" id="Timbre">
+         <label for="accesorios">Foco</label>
+         <input type="checkbox" name="Foco" id="Foco">
+        </h5>
+        <label for="marca">MARCA:</label>
+        <select name="marca" id="marca">
+        <option value="specialized">Specialized</option>
+        <option value="trek">Trek</option>
+        <option value="merida">Merida</option>
+        <option value="scott">Scott</option>
+        <option value="giant">Giant</option>
+        <option value="cube">Cube</option>
+        <option value="lapierre">Lapierre</option>
+        <option value="orbea">Orbea</option>
+        <option value="cannondale">Cannondale</option>
+        <option value="bmc">BMC</option>
+        <option value="canyon">Canyon</option>
+        <option value="look">Look</option>
+        <option value="protek">Protek</option>
+        <option value="megamo">Megamo</option>
+        <option value="pinarello">Pinarello</option>
+        <option value="bianchi">Bianchi</option>
+        <option value="bh">BH</option>
+        <option value="factor">Factor</option>
+        <option value="ghost">Ghost</option>
+        <option value="cervélo">Cervélo</option>
+        <option value="argon">Argon</option>
+         </select></h4></form>
+</body>
+</html>
